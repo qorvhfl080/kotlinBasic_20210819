@@ -21,4 +21,16 @@
         android:layout_height="wrap_content"
         android:text="로그 확인용 버튼2"/>
 
+    <Button
+        android:id="@+id/toastBtn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토스트 띄우기1"/>
+
+    <Button
+        android:id="@+id/toastBtn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토스트 띄우기2"/>
+
 </LinearLayout>

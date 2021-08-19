@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +25,18 @@ class MainActivity : AppCompatActivity() {
         logBtn02.setOnClickListener {
 
             Log.d("메인화면", "두 번째 로그 버튼 눌림")
+
+        }
+
+        toastBtn01.setOnClickListener {
+
+            Toast.makeText(this, "연습용 토스트", Toast.LENGTH_SHORT).show()
+
+        }
+
+        toastBtn02.setOnClickListener {
+
+            Toast.makeText(this, "toast -> create a new toast", Toast.LENGTH_SHORT).show()
 
         }
 
